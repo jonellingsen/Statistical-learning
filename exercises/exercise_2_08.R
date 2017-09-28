@@ -26,8 +26,8 @@ test.X = ExceptY(test.data)
 
 results = data.frame(
   method = character(0),
-  accuracy.train = numeric(0),
-  accuracy.test = numeric(0)
+  misclassification.rate.train = numeric(0),
+  misclassification.rate.test = numeric(0)
 )
 
 threshold = function(prediction) {
@@ -40,8 +40,8 @@ ols.predictions.train = threshold(predict(ols.model, train.data))
 ols.predictions.test = threshold(predict(ols.model, test.data))
 ols.results = data.frame(
   method = "OLS",
-  accuracy.train = mean(ols.predictions.train == train.data$digit),
-  accuracy.test = mean(ols.predictions.test == test.data$digit)
+  misclassification.rate.train = mean(ols.predictions.train != train.data$digit),
+  misclassification.rate.test = mean(ols.predictions.test != test.data$digit)
 )
 results = rbind(results, ols.results)
 
@@ -49,20 +49,20 @@ results = rbind(results, ols.results)
 Ks = c(1, 3, 5, 7, 15)
 knn.results = lapply(Ks, function(k) {
   predictions.train = knn(train.X, train.X, factor(train.data$digit), k = k)
-  accuracy.train = 1 - mean(predictions.train == train.data$digit)
+  misclassification.rate.train = mean(predictions.train != train.data$digit)
 
   predictions.test = knn(train.X, test.X, factor(train.data$digit), k = k)
-  accuracy.test = 1 - mean(predictions.test == test.data$digit)
+  misclassification.rate.test = mean(predictions.test != test.data$digit)
 
   return(
     data.frame(
       method = paste(k, "NN", sep = ""),
-      accuracy.train = accuracy.train,
-      accuracy.test = accuracy.test
+      misclassification.rate.train = misclassification.rate.train,
+      misclassification.rate.test = misclassification.rate.test
     )
   )
 })
 
 results = do.call(rbind, c(list(results), knn.results))
-results = results[order(-results$accuracy.test), ]
+results = results[order(-results$misclassification.rate.test), ]
 print(results)
