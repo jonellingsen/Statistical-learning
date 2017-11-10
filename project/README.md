@@ -1,5 +1,9 @@
 # STK4030 Final project
 
+[Problem 1: Boston housing](#problem-1-boston-housing)
+[Problem 2: oral cancer](#problem-2-oral-cancer)
+[Problem 3: forest fire](#problem-3-forest-fire)
+
 ## Problem 1: Boston housing
 
 Harrison and Rubinfeld (1978) reported the results of a study on the house prices in Boston. In particular, the logarithm of the median value of owneroccupied houses in thousand of dollars (y) was recorded for 506 tracts of the Boston Standard Metropolitan Area (from 1970), together with 14 variables that were considered potentially correlated to the house prices:
