@@ -3,6 +3,7 @@
 - [Problem 1: Boston housing](#problem-1-boston-housing)
 - [Problem 2: oral cancer](#problem-2-oral-cancer)
 - [Problem 3: forest fire](#problem-3-forest-fire)
+- [Encyclopedia](#encyclopedia)
 
 ## Problem 1: Boston housing
 
@@ -61,3 +62,6 @@ Cortez and Morais (2007) analysed the forest fire data from the Montesinho natur
 - **rain**: outside rain in mm/m2;
 
 The goal of this exercise is to create a model to predict the burned area of the forest, that Cortez and Morais (2007) suggested to logarithmically transform due to its skewness toward 0. The dataset already contains the transformed variable (logArea). Try some of the approaches seen in the course and provide a final model that can be used to predict the logarithm of the burned area. Describe your work and the reasons behind the choice of the final model.
+
+## Encyclopedia
+
