@@ -65,7 +65,7 @@ The goal of this exercise is to create a model to predict the burned area of the
 
 ## Encyclopedia
 
-A place to share interpretations, reference material (from ESL etc.) and questions for discussion.
+A place to share interpretations, reference material (from ESL etc.), questions and other insights.
 
 ### Logarithm of the median value
 
