@@ -1,8 +1,8 @@
 # STK4030 Final project
 
-- [Problem 1: Boston housing](#problem-1)
-- [Problem 2: oral cancer](#problem-2)
-- [Problem 3: forest fire](#problem-3)
+- [Problem 1: Boston housing](#problem-1-boston-housing)
+- [Problem 2: oral cancer](#problem-2-oral-cancer)
+- [Problem 3: forest fire](#problem-3-forest-fire)
 - [Encyclopedia](#encyclopedia)
 
 ## Problem 1: Boston housing
