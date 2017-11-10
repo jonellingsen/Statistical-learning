@@ -20,7 +20,7 @@ Harrison and Rubinfeld (1978) reported the results of a study on the house price
 - **dis**: weighted distances to five employment centers in the Boston region;
 - **rad**: index of accessibility to radial highways;
 - **tax**: full value property tax rate ($/$1O,OOO);
-ptratio: pupil-teacher ratio of the school district;
+- **ptratio**: pupil-teacher ratio of the school district;
 - **bk**: proportion of black population;
 - **lstat**: logarithm of the proportion of population that is lower status (based on education and kind of job).
 
