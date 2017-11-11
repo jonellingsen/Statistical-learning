@@ -115,6 +115,8 @@ Leave-one-out cross validation
 
 #### .632 bootstrap procedure
 
+See page 251
+
 ### LDA
 
 ### QDA
