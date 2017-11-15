@@ -103,6 +103,8 @@ Leave-one-out cross validation
 
 ### Component-wise L2Boost
 
+[Dortmund slides](https://www.statistik.uni-dortmund.de/useR-2008/slides/Kneib+Hothorn.pdf)
+
 #### m<sub>stop</sub>
 
 ### Population-based case-control study
