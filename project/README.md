@@ -89,6 +89,8 @@ A place to share interpretations, reference material (from ESL etc.), questions 
 
 ### Cross validation
 
+The wrong and right way to do cross validation (p. 257)
+
 #### n-fold
 
 #### LOO
